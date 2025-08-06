@@ -1,0 +1,18 @@
+.event-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.event-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.event-card.completed {
+    opacity: 0.7;
+    background-color: #e6ffe6;
+    border-left: 5px solid green;
+}

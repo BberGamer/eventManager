@@ -1,0 +1,18 @@
+/* .welcome-background {
+    background: linear-gradient(135deg, #dfe9f3 0%, #ffffff 100%);
+    padding: 40px 0;
+} */
+
+.welcome-hero {
+    background: url('https://i.pinimg.com/1200x/2b/2d/43/2b2d43a05bf530b07bd178ed0db8f980.jpg') center/cover no-repeat;
+    height: 90vh;
+}
+
+.features-section {
+    background-color: #f8f9fa;
+}
+
+.feature-icon {
+    width: 80px;
+    height: 80px;
+}

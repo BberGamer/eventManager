@@ -1,0 +1,33 @@
+/* Topbar.css */
+.topbar-navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    height: 64px;
+    background-color: #fff;
+}
+
+.notification-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.notification-dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    width: 300px;
+    z-index: 1000;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}

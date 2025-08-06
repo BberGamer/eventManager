@@ -1,0 +1,31 @@
+/* CalendarPage.css */
+/* .calendar-container {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+} */
+
+.rbc-calendar {
+    height: 100%;
+    min-height: 80vh;
+    /* đảm bảo chiều cao hiển thị đẹp */
+}
+
+/* CalendarPage.css */
+.google-calendar-style .rbc-header {
+    background-color: #f0f4ff;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.calendar-container {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
